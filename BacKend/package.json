@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npm install --no-optional && npm run webpack",
+    "build": "npm install --no-optional && npm install --save-dev webpack-cli && npm run webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --mode production"
   },
