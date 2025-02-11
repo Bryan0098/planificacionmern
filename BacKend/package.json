@@ -4,8 +4,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npm install --save-dev webpack webpack-cli && webpack --mode production",
+    "build": "npm install --no-optional && npm run webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack --mode production"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
